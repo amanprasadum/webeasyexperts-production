@@ -19,180 +19,71 @@
 <body>
 
     <!-- === CLEAN MODERN HEADER === -->
-   <header class="main-header" id="header">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <!-- Logo -->
-            <a class="navbar-brand header-logo" href="#">
-                <img src="./assets/images/logo.png" class="navbar-logo">
-            </a>
+    <header class="main-header" id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand header-logo" href="#">
+                    <!--<div class="logo-icon">-->
+                    <!--    <i class="fa-solid fa-globe"></i>-->
+                    <!--</div>-->
+                    <!--<span>Web EASY Experts</span>-->
+                    <img src="./assets/images/logo.png" class="navbar-logo">
+                </a>
 
-            <!-- Mobile Toggle -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!-- Navigation -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    
-                    <!-- About Us Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#about" data-bs-toggle="dropdown">About Us</a>
-                        <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item dropdown-item-custom" href="#company-overview">
-                                    <i class="fas fa-building me-2"></i>Company Overview
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#our-process">
-                                    <i class="fas fa-cogs me-2"></i>Our Process
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#why-choose-us">
-                                    <i class="fas fa-star me-2"></i>Why Choose Us
-                                </a></li>
-                        </ul>
-                    </li>
+                <!-- Navigation -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#skills" data-bs-toggle="dropdown">Skills</a>
+                            <ul class="dropdown-menu dropdown-menu-custom">
+                                <li><a class="dropdown-item dropdown-item-custom" href="#">
+                                        <i class="fas fa-code me-2"></i>Web Development
+                                    </a></li>
+                                <li><a class="dropdown-item dropdown-item-custom" href="#">
+                                        <i class="fa-brands fa-wordpress me-2"></i>WordPress Design
+                                    </a></li>
+                                <li><a class="dropdown-item dropdown-item-custom" href="#">
+                                        <i class="fa-brands fa-shopify me-2"></i>Shopify
+                                    </a></li>
+                                <li><a class="dropdown-item dropdown-item-custom" href="#">
+                                        <i class="fa-brands fa-wix me-2"></i>Wix
+                                    </a></li>
+                                <li><a class="dropdown-item dropdown-item-custom" href="#">
+                                        <i class="fa-solid fa-rocket me-2"></i>SEO
+                                    </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
 
-                    <!-- Website Design Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#design" data-bs-toggle="dropdown">Website Design</a>
-                        <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item dropdown-item-custom" href="#custom-design">
-                                    <i class="fas fa-palette me-2"></i>Custom Design & Development
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#responsive-design">
-                                    <i class="fas fa-mobile-alt me-2"></i>Responsive Web Design
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#landing-page">
-                                    <i class="fas fa-rocket me-2"></i>Landing Page Design
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#website-redesign">
-                                    <i class="fas fa-sync-alt me-2"></i>Website Redesign Services
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#seo-optimized">
-                                    <i class="fas fa-search me-2"></i>SEO Optimized Web Design
-                                </a></li>
-                        </ul>
-                    </li>
-
-                    <!-- Website Development Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#development" data-bs-toggle="dropdown">Development</a>
-                        <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item dropdown-item-custom" href="#html-development">
-                                    <i class="fab fa-html5 me-2"></i>HTML Website Development
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#wordpress-development">
-                                    <i class="fab fa-wordpress me-2"></i>WordPress Website Development
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#wix-development">
-                                    <i class="fab fa-wix me-2"></i>Wix Website Development
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#shopify-development">
-                                    <i class="fab fa-shopify me-2"></i>Shopify Development
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#squarespace-development">
-                                    <i class="fas fa-square me-2"></i>Squarespace Development
-                                </a></li>
-                        </ul>
-                    </li>
-
-                    <!-- eCommerce Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#ecommerce" data-bs-toggle="dropdown">eCommerce</a>
-                        <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item dropdown-item-custom" href="#ecommerce-store">
-                                    <i class="fas fa-store me-2"></i>eCommerce Web Store
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#woocommerce-stores">
-                                    <i class="fab fa-wordpress me-2"></i>WooCommerce Stores
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#shopify-stores">
-                                    <i class="fab fa-shopify me-2"></i>Shopify Stores
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#payment-gateway">
-                                    <i class="fas fa-credit-card me-2"></i>Payment Gateway Integration
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#chatbot-integration">
-                                    <i class="fas fa-robot me-2"></i>Chatbot Integration
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#whatsapp-integration">
-                                    <i class="fab fa-whatsapp me-2"></i>WhatsApp Chat Integration
-                                </a></li>
-                        </ul>
-                    </li>
-
-                    <!-- Support Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#support" data-bs-toggle="dropdown">Support</a>
-                        <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item dropdown-item-custom" href="#website-maintenance">
-                                    <i class="fas fa-wrench me-2"></i>Website Maintenance & Support
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#website-security">
-                                    <i class="fas fa-shield-alt me-2"></i>Website Security and Backups
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#performance-optimization">
-                                    <i class="fas fa-tachometer-alt me-2"></i>Website Performance Optimisation
-                                </a></li>
-                        </ul>
-                    </li>
-
-                    <!-- Industries Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#industries" data-bs-toggle="dropdown">Industries</a>
-                        <ul class="dropdown-menu dropdown-menu-custom">
-                            <li><a class="dropdown-item dropdown-item-custom" href="#healthcare-websites">
-                                    <i class="fas fa-heartbeat me-2"></i>Healthcare Website Design
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#restaurant-websites">
-                                    <i class="fas fa-utensils me-2"></i>Restaurant Website Design
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#real-estate-websites">
-                                    <i class="fas fa-home me-2"></i>Real Estate Website Design
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#corporate-websites">
-                                    <i class="fas fa-building me-2"></i>Corporate Business Websites
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#education-websites">
-                                    <i class="fas fa-graduation-cap me-2"></i>Education Websites
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#retail-websites">
-                                    <i class="fas fa-shopping-bag me-2"></i>Retail Business Website
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#travel-websites">
-                                    <i class="fas fa-plane me-2"></i>Travel & Tourism Websites
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#law-websites">
-                                    <i class="fas fa-gavel me-2"></i>Law Firm Websites
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#automotive-websites">
-                                    <i class="fas fa-car me-2"></i>Automotive Websites
-                                </a></li>
-                            <li><a class="dropdown-item dropdown-item-custom" href="#beauty-websites">
-                                    <i class="fas fa-cut me-2"></i>Beauty Salon Website
-                                </a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-
-                <!-- CTA Button -->
-                <div class="header-actions">
-                    <a href="#contact" class="header-cta">
-                        Get Started
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <!-- CTA Button -->
+                    <div class="header-actions">
+                        <a href="#contact" class="header-cta">
+                            Get Started
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
     <!-- === HERO CAROUSEL SECTION === -->
     <section id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="5000">

@@ -115,62 +115,8 @@ body {
 
 /* === CLEAN MODERN HEADER STYLES === */
 /* Mega Menu Styles */
-.mega-menu {
-    left: 0 !important;
-    right: 0 !important;
-    padding: 2rem 0 !important;
-    margin-top: 0.5rem !important;
-    max-width: none !important;
-    width: 100vw !important;
-    transform: none !important;
-}
 
-.dropdown-header {
-    color: var(--primary) !important;
-    font-size: 0.9rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 0.5rem;
-    margin-bottom: 0.75rem !important;
-}
-
-.dropdown-divider {
-    border-color: rgba(255, 255, 255, 0.1) !important;
-    margin: 1.5rem 0 !important;
-}
-
-/* Mobile Mega Menu */
-@media (max-width: 991.98px) {
-    .mega-menu {
-        position: static !important;
-        width: 100% !important;
-        box-shadow: none !important;
-        border: 1px solid rgba(255, 255, 255, 0.1) !important;
-        margin-top: 0.5rem !important;
-        padding: 1rem !important;
-    }
-    
-    .mega-menu .container {
-        padding: 0;
-    }
-    
-    .mega-menu .row {
-        margin: 0;
-    }
-    
-    .mega-menu .col-md-3,
-    .mega-menu .col-md-4,
-    .mega-menu .col-md-6,
-    .mega-menu .col-md-8 {
-        padding: 0;
-        margin-bottom: 1.5rem;
-    }
-    
-    .dropdown-header {
-        font-size: 0.95rem;
-        margin-bottom: 1rem !important;
-    }
-}
-/* .main-header {
+ .main-header {
     top: 0;
     left: 0;
     width: 100%;
@@ -357,7 +303,7 @@ body {
 
 .main-header.scrolled .navbar {
     padding: 0.75rem 0;
-} */
+}
 
 /* === HEADER STYLES END === */
 
