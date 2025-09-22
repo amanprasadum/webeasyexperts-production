@@ -19,15 +19,12 @@
 <body>
 
     <!-- === CLEAN MODERN HEADER === -->
+    <!-- === UPDATED HEADER WITH MEGA MENU === -->
     <header class="main-header" id="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <!-- Logo -->
                 <a class="navbar-brand header-logo" href="#">
-                    <!--<div class="logo-icon">-->
-                    <!--    <i class="fa-solid fa-globe"></i>-->
-                    <!--</div>-->
-                    <!--<span>Web EASY Experts</span>-->
                     <img src="./assets/images/logo.png" class="navbar-logo">
                 </a>
 
@@ -42,32 +39,147 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="#home">Home</a>
                         </li>
+
+                        <!-- About Us Dropdown -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#skills" data-bs-toggle="dropdown">Skills</a>
+                            <a class="nav-link dropdown-toggle" href="#about" data-bs-toggle="dropdown"
+                                aria-expanded="false">About Us</a>
                             <ul class="dropdown-menu dropdown-menu-custom">
-                                <li><a class="dropdown-item dropdown-item-custom" href="#">
-                                        <i class="fas fa-code me-2"></i>Web Development
+                                <li><a class="dropdown-item dropdown-item-custom" href="#about">
+                                        <i class="fas fa-building me-2"></i>Company Overview
                                     </a></li>
-                                <li><a class="dropdown-item dropdown-item-custom" href="#">
-                                        <i class="fa-brands fa-wordpress me-2"></i>WordPress Design
+                                <li><a class="dropdown-item dropdown-item-custom" href="#process">
+                                        <i class="fas fa-cogs me-2"></i>Our Process
                                     </a></li>
-                                <li><a class="dropdown-item dropdown-item-custom" href="#">
-                                        <i class="fa-brands fa-shopify me-2"></i>Shopify
-                                    </a></li>
-                                <li><a class="dropdown-item dropdown-item-custom" href="#">
-                                        <i class="fa-brands fa-wix me-2"></i>Wix
-                                    </a></li>
-                                <li><a class="dropdown-item dropdown-item-custom" href="#">
-                                        <i class="fa-solid fa-rocket me-2"></i>SEO
+                                <li><a class="dropdown-item dropdown-item-custom" href="#about">
+                                        <i class="fas fa-star me-2"></i>Why Choose Us
                                     </a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+
+                        <!-- Services Mega Menu -->
+                        <li class="nav-item dropdown mega-menu-item">
+                            <a class="nav-link dropdown-toggle" href="#services" data-bs-toggle="dropdown"
+                                aria-expanded="false">Services</a>
+                            <div class="dropdown-menu mega-menu-dropdown">
+                                <div class="container">
+                                    <div class="row">
+                                        <!-- Website Design Column -->
+                                        <div class="col-lg-3 col-md-6 mb-4">
+                                            <h6 class="mega-menu-title">
+                                                <i class="fas fa-paint-brush me-2"></i>Website Design
+                                            </h6>
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#services">Custom Design & Development</a></li>
+                                                <li><a href="#services">Responsive Web Design</a></li>
+                                                <li><a href="#services">Landing Page Design</a></li>
+                                                <li><a href="#services">Website Redesign Services</a></li>
+                                                <li><a href="#services">SEO Optimized Web Design</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- Website Development Column -->
+                                        <div class="col-lg-3 col-md-6 mb-4">
+                                            <h6 class="mega-menu-title">
+                                                <i class="fas fa-code me-2"></i>Website Development
+                                            </h6>
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#services">HTML Website Development</a></li>
+                                                <li><a href="#services">WordPress Website Development</a></li>
+                                                <li><a href="#services">Wix Website Development</a></li>
+                                                <li><a href="#services">Shopify Development</a></li>
+                                                <li><a href="#services">Squarespace Development</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- eCommerce Solutions Column -->
+                                        <div class="col-lg-3 col-md-6 mb-4">
+                                            <h6 class="mega-menu-title">
+                                                <i class="fas fa-shopping-cart me-2"></i>eCommerce Solutions
+                                            </h6>
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#services">eCommerce Web Store</a></li>
+                                                <li><a href="#services">WooCommerce Stores</a></li>
+                                                <li><a href="#services">Shopify Stores</a></li>
+                                                <li><a href="#services">Payment Gateway Integration</a></li>
+                                                <li><a href="#services">Chatbot Integration</a></li>
+                                                <li><a href="#services">WhatsApp Chat Integration</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- Support & Maintenance Column -->
+                                        <div class="col-lg-3 col-md-6 mb-4">
+                                            <h6 class="mega-menu-title">
+                                                <i class="fas fa-tools me-2"></i>Support & Maintenance
+                                            </h6>
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#services">Website Maintenance & Support</a></li>
+                                                <li><a href="#services">Website Security and Backups</a></li>
+                                                <li><a href="#services">Website Performance Optimisation</a></li>
+                                            </ul>
+                                            <h6 class="mega-menu-title mt-3">
+                                                <i class="fas fa-folder me-2"></i>Portfolio
+                                            </h6>
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#portfolio">Portfolio Website Designs</a></li>
+                                                <li><a href="#portfolio">Product Showcase Website</a></li>
+                                                <li><a href="#portfolio">Video Showcase Website</a></li>
+                                                <li><a href="#portfolio">Photo Showcase Website</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Industries We Serve Section -->
+                                    <div class="row border-top pt-3 mt-3"
+                                        style="border-color: rgba(255,255,255,0.1) !important;">
+                                        <div class="col-12">
+                                            <h6 class="mega-menu-title">
+                                                <i class="fas fa-industry me-2"></i>Industries We Serve
+                                            </h6>
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6">
+                                                    <ul class="mega-menu-list">
+                                                        <li><a href="#services">Healthcare Website Design</a></li>
+                                                        <li><a href="#services">Restaurant Website Design</a></li>
+                                                        <li><a href="#services">Real Estate Website Design</a></li>
+                                                        <li><a href="#services">Corporate Business Websites</a></li>
+                                                        <li><a href="#services">Education Websites</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <ul class="mega-menu-list">
+                                                        <li><a href="#services">Personal Portfolio Website</a></li>
+                                                        <li><a href="#services">Retail Business Website</a></li>
+                                                        <li><a href="#services">Travel & Tourism Websites</a></li>
+                                                        <li><a href="#services">Personal Training Websites</a></li>
+                                                        <li><a href="#services">Law Firm Websites</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <ul class="mega-menu-list">
+                                                        <li><a href="#services">Financial Accounting Websites</a></li>
+                                                        <li><a href="#services">Event Management Websites</a></li>
+                                                        <li><a href="#services">Automotive Websites</a></li>
+                                                        <li><a href="#services">NGO Non-Profit Websites</a></li>
+                                                        <li><a href="#services">Beauty Salon Website</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <ul class="mega-menu-list">
+                                                        <li><a href="#services">Construction Company Websites</a></li>
+                                                        <li><a href="#services">Architecture Company Website</a></li>
+                                                        <li><a href="#services">Entertainment Websites</a></li>
+                                                        <li><a href="#services">Fashion and Lifestyle Websites</a></li>
+                                                        <li><a href="#services">Transport Company Websites</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
