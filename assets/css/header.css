@@ -1,7 +1,7 @@
-/* === IMPROVED MEGA MENU STYLES === */
+/* === NON-STICKY HEADER STYLES === */
 
 .main-header {
-    position: fixed;
+    position: relative; /* Changed from fixed to relative */
     top: 0;
     left: 0;
     width: 100%;
@@ -318,11 +318,5 @@
     }
 }
 
-.main-header.scrolled {
-    background: rgba(15, 23, 42, 0.98);
-    backdrop-filter: blur(25px);
-}
-
-.main-header.scrolled .navbar {
-    padding: 0.75rem 0;
-}
+/* Remove any scrolled state styles since header is no longer sticky */
+/* .main-header.scrolled styles removed */
