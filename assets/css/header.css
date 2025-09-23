@@ -1,10 +1,7 @@
-
-/* === HEADER STYLES START === */
-
 /* === IMPROVED MEGA MENU STYLES === */
 
 .main-header {
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -329,5 +326,3 @@
 .main-header.scrolled .navbar {
     padding: 0.75rem 0;
 }
-
-/* === HEADER STYLES END === */
