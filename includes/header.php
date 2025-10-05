@@ -43,7 +43,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="/">Home aman</a>
+                            <a class="nav-link active" href="/">Home</a>
                         </li>
 
                         <!-- About Us Dropdown -->
