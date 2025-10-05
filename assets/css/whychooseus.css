@@ -1,0 +1,258 @@
+
+/* === WHY CHOOSE US STYLES === */
+.why-choose-content .content-title {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.why-choose-content .content-text {
+    color: var(--gray-300);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+}
+
+.advantage-list {
+    margin-top: 2rem;
+}
+
+.advantage-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.advantage-item:last-child {
+    margin-bottom: 0;
+}
+
+.advantage-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--gradient-primary);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.advantage-icon i {
+    font-size: 1.25rem;
+    color: white;
+}
+
+.advantage-content h4 {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.advantage-content p {
+    color: var(--gray-300);
+    line-height: 1.6;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.why-choose-image img {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--shadow-lg);
+}
+
+.features-grid {
+    margin-top: 3rem;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: var(--shadow-xl);
+}
+
+.feature-icon {
+    width: 70px;
+    height: 70px;
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+}
+
+.feature-icon i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.feature-title {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.feature-text {
+    color: var(--gray-300);
+    line-height: 1.6;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Testimonials */
+.testimonial-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: var(--shadow-xl);
+}
+
+.testimonial-stars {
+    margin-bottom: 1rem;
+}
+
+.testimonial-stars i {
+    color: #FFD700;
+    margin-right: 0.25rem;
+    font-size: 1.1rem;
+}
+
+.testimonial-text {
+    color: var(--gray-300);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    font-size: 0.95rem;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author-name {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.author-position {
+    color: var(--gray-400);
+    font-size: 0.85rem;
+}
+
+/* === RESPONSIVE STYLES === */
+@media (max-width: 992px) {
+    .timeline-marker {
+        position: static;
+        transform: none;
+        margin: 0 auto 2rem;
+    }
+    
+    .process-timeline::before {
+        display: none;
+    }
+    
+    .timeline-content {
+        margin-top: 0;
+        padding: 2rem;
+    }
+    
+    .blog-sidebar {
+        position: static;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .blog-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .company-stats .row {
+        text-align: center;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+    
+    .timeline-content {
+        padding: 1.5rem;
+    }
+    
+    .timeline-title {
+        font-size: 1.5rem;
+    }
+    
+    .advantage-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .advantage-icon {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar-widget {
+        padding: 1.5rem;
+    }
+    
+    .recent-post {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .recent-post-image {
+        align-self: center;
+    }
+    
+    .vision-card,
+    .feature-card,
+    .testimonial-card {
+        padding: 1.5rem;
+    }
+    
+    .timeline-content {
+        padding: 1.25rem;
+    }
+}
+                
+    
