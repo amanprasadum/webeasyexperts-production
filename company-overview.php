@@ -27,25 +27,25 @@
                             <div class="row">
                                 <div class="col-6 col-md-3 mb-3">
                                     <div class="stat-item">
-                                        <div class="stat-number">500+</div>
+                                        <div class="stat-number">50+</div>
                                         <div class="stat-label">Projects Completed</div>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-3 mb-3">
                                     <div class="stat-item">
-                                        <div class="stat-number">200+</div>
+                                        <div class="stat-number">40+</div>
                                         <div class="stat-label">Happy Clients</div>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-3 mb-3">
                                     <div class="stat-item">
-                                        <div class="stat-number">50+</div>
+                                        <div class="stat-number">10+</div>
                                         <div class="stat-label">Expert Team</div>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-3 mb-3">
                                     <div class="stat-item">
-                                        <div class="stat-number">5+</div>
+                                        <div class="stat-number">10+</div>
                                         <div class="stat-label">Years Experience</div>
                                     </div>
                                 </div>
