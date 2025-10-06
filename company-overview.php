@@ -55,8 +55,10 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="company-image">
-                        <img src="https://placehold.co/600x400/1e293b/ffffff?text=Our+Team+at+Work"
+                        <img src="/assets/images/our-team-at-work.jpg"
                             alt="Web EASY Experts Team" class="img-fluid rounded-3">
+                        <!-- <img src="https://placehold.co/600x400/1e293b/ffffff?text=Our+Team+at+Work"
+                            alt="Web EASY Experts Team" class="img-fluid rounded-3"> -->
                     </div>
                 </div>
             </div>
