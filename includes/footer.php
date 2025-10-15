@@ -1,4 +1,4 @@
-<footer class="main-footer">
+<footer class="main-footer check">
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-4">
